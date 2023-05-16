@@ -47,14 +47,14 @@ body{
     background-color: white;
     color: black;
     font-family: "Lucida Sans Typewriter", Lucida Sans Typewriter;
-    height: 50%;
+    height: 60%;
     width: 40%;
 }
 .buthead2{
     background-color: gray;
     color: white;
     font-family: "Lucida Sans Typewriter", Lucida Sans Typewriter;
-    height: 50%;
+    height: 60%;
     width: 40%;
 }
 .header .button_head button{
@@ -86,7 +86,7 @@ body{
     align-items: center;
 }
 .main_head_text p{
-    font-size: 10px;
+    font-size: 13px;
     font-family: "Franklin Gothic Medium", Franklin Gothic Medium;
 }
 .main_head_but{
@@ -119,22 +119,23 @@ body{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .main_main p{
-    font-size: 20px;
+    font-size: 25px;
     color: white;
-    font-family: "Avanta Garde", Avanta Garde;
+    font-family: "Arial black", Arial Black;
 }
 .search_bar{
-    height: 35px;
-    width: 60%;
+    height: 20%;
+    width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: white;
+    margin-top: 30px;
 }
 .search_main{
     height: 100%;
@@ -145,8 +146,9 @@ body{
 }
 .search_main p{
     color: black;
-    font-size: 13px;
+    font-size: 15px;
     margin-left: 10px;
+    font-family: "Times New Roman", Times New Roman;
 }
 .search_main i{
     margin-left: 10px;
@@ -157,5 +159,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+}
+.main_but{
+    height: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main_button{
+    height: 50%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgb(214, 214, 214);
+}
+.main_button p{
+    font-size: 11px;
+    color: black;
+    font-family: "Times New Roman", Times New Roman;
 }
