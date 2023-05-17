@@ -47,22 +47,22 @@ body{
     background-color: white;
     color: black;
     font-family: "Lucida Sans Typewriter", Lucida Sans Typewriter;
-    height: 60%;
-    width: 40%;
+    height: 55%;
+    width: 45%;
 }
 .buthead2{
     background-color: gray;
     color: white;
     font-family: "Lucida Sans Typewriter", Lucida Sans Typewriter;
-    height: 60%;
-    width: 40%;
+    height: 55%;
+    width: 45%;
 }
 .header .button_head button{
-    border-radius: 20px;
+    border-radius: 25px;
     font-size: 15px;
 }
 .main{
-    height: 55%;
+    height: 60%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -75,8 +75,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .main_head_text{
     width: 50%;
@@ -86,7 +86,7 @@ body{
     align-items: center;
 }
 .main_head_text p{
-    font-size: 13px;
+    font-size: 18px;
     font-family: "Franklin Gothic Medium", Franklin Gothic Medium;
 }
 .main_head_but{
@@ -98,10 +98,10 @@ body{
     padding-right: 10px;
 }
 .main_head_but button{
-    height: 40%;
-    width: 75px;
-    border-radius: 10px;
-    margin-right: 15px;
+    height: 50%;
+    width: 90px;
+    border-radius: 15px;
+    margin-right: 25px;
     font-size: 10px;
 }
 .main_small{
@@ -120,9 +120,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url("img/wardrobe.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .main_main p{
-    font-size: 25px;
+    font-size: 28px;
     color: white;
     font-family: "Arial black", Arial Black;
 }
@@ -145,7 +148,7 @@ body{
 }
 .search_main p{
     color: black;
-    font-size: 15px;
+    font-size: 18px;
     margin-left: 10px;
     font-family: "Times New Roman", Times New Roman;
 }
@@ -176,12 +179,12 @@ body{
     background-color: rgb(214, 214, 214);
 }
 .main_button p{
-    font-size: 8px;
+    font-size: 15px;
     color: black;
     font-family: "Times New Roman", Times New Roman;
 }
 .other{
-    height: 35%;
+    height: 30%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -203,7 +206,7 @@ body{
     align-items: center;
 }
 .other1 p{
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 17px;
     font-family: "Arial", Arial, sans-serif ;
 }
@@ -224,4 +227,13 @@ body{
 .pic{
     height: 100%;
     width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.pic img{
+    height: 85%;
+    width: 85%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
